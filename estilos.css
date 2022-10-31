@@ -1,0 +1,46 @@
+
+.cabecalho{background-image: url(Imagens/Cab_rod.png);
+background-size: cover;
+margin-bottom: 50px;}
+.logo{ max-width: 40px;
+}
+.texto_menu{color: white;
+font-size: small;}
+
+
+.lista{background-color: rgb(255, 255, 255);
+padding: 20px;
+margin-right: 10px;
+border-radius: 15px;}
+
+.btn_alterar{background-color: rgb(21, 159, 126);border: none;}
+
+.tabela{margin-top: 20px;}
+
+
+
+
+
+
+
+.botoes
+{background-image: url(Imagens/Cab_rod.png);
+margin-left: 30px;
+border-radius: 15px;
+text-align: center;
+}
+
+
+.botoes button{display: block;margin: 30px auto;border: none;}
+.btn_lista{border-radius: 5px;background-color: white;color: black;}
+.btn_criar{background-color: rgb(21, 159, 126);}
+.btn_criar a{color: white;}
+
+
+
+
+.mapa{margin-top: 50px;
+border-radius: 15px 15px 0px 0px;}
+
+.rodape{background-image: url(Imagens/Cab_rod.png);}
+#grid.lista{width: min-content;}
