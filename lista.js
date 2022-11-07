@@ -1,69 +1,12 @@
-mercados = [
-    {
-        "id": 1,
-        "nome":"Mercado A",
-    },
-    {
-        "id": 2,
-        "nome":"Mercado B",
-    },
-    {
-        "id": 3,
-        "nome":"Mercado C",
-    }
-]
+import * as banco from "./banco.js";
 
-produtos = [
-    {
-        "id": 1,
-        "nome":"Produto A",
-    },
-    {
-        "id": 2,
-        "nome":"Mercado B",
-    },
-    {
-        "id": 3,
-        "nome":"Mercado C",
-    }
-]
+function carregarDados() {
+    console.log(banco.carregarMercados());
+}
 
-estoque = [    
-    {
-        "produto_id": 1,
-        "mercado_id": 1,
-        "preco": 10
-    },
-    {
-        "mercado_id": 1,
-        "produto_id": 2,
-        "preco": 11
-    },
-    {
-        "mercado_id": 1,
-        "produto_id": 3,
-        "preco": 9
-    },
-    {
-        "mercado_id": 2,
-        "produto_id": 1,
-        "preco": 10
-    },
+
+
+window.onload = () => {
     
-    {
-        "mercado_id": 1,
-        "produto_id": 3,
-        "preco": 10
-    },
-    {
-        "mercado_id": 3,
-        "produto_id": 3,
-        "preco": 10
-    },
-    {
-        "mercado_id": 3,
-        "produto_id": 1,
-        "preco": 10
-    }
-]
-
+    carregarDados();
+}
